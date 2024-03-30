@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title> feedback
+        </title>
+    </head>
+    <body bgcolor="lavender">
+        <table bgcolor=darkblue height="3%" width="100%">
+            <tr><td><a href="assign.html" target="content"><font color="black"><img src="back.png" height="4%" width="4%"/></font></a></td></tr> 
+          </table>
+            <table  bgcolor=darkblue height="20%" width="100%">
+              <tr>
+                  <td width="15%"><img src="image1.png" height="90%" width="100%"/></td>
+                  <td align="center"> <FONT COLOR=WHITE SIZE="7" >BANASTHALI VIDHYAPETH<br>वनस्थली विद्यापीठ</FONT></td>
+                  <td width="15%"><img src="images.jpg" height="100%" width="100%"/></td>
+              </tr>
+          </table>
+        <h1 align="center">
+            REGISTER </fieldset>
+        </h1>
+        <form name="reg form" method="GET" action="BIO.html">
+            <fieldset>
+            <legend ALIGN=CENTER> Personal Information </legend>
+            <table BGCOLOR="lavender"  WIDTH="100%">
+           <TR> 
+                <TD><label for"name"> Name of student :</label></TD>
+                <TD><input type="text" name="uname"/> </TD><br></TR>
+            <TR>
+                <TD><label for="age"> AGE: </label></TD>
+                <TD> <input type="NUMBER"  name="age"  value="Age" MIN="1" MAX="150" /></TD>
+            </TR>
+            <TR>
+                <TD><label for="gender"> GENDER : </label></TD>
+                <TD><input type="radio" name="gender" value="female"/> FEMALE</TD>
+                <TD><input type="radio" name="gender" value="male"/> MALE</TD>
+                <TD><input type="radio" name="gender" value="others"/> OTHERS</TD>
+            </TR>
+           
+            <TR>
+                 <TD><label for"prod">Mother Name: </label></TD>
+                 <TD><input type="text" name="product"/> </TD>
+            </TR>
+            <TR>
+                <TD><label for"prod">Father Name: </label></TD>
+                <TD><input type="text" name="product"/> </TD>
+           </TR>
+              <TR>
+                 <TD><label for"prod">Your State: </label></TD>
+                 <TD><input type="text" name="product"/> </TD>
+            </TR>
+	    <TR>
+                 <TD><label for"prod">Address: </label></TD>
+                 <TD><input type="text" name="product"/> </TD>
+            </TR>
+             
+            <TR>
+                  <TD><label for"date"> Date of birth: </label></TD>
+                  <TD><input type="text" name="date"/> <br></TD>
+            </TR>
+             <TR>
+                <TD><label for="gender">DO YOU HAVE ANY MEDICAL HISTORY : </label></TD>
+                <TD><input type="radio" name="gender" value="yes"/> YES</TD>
+                <TD><input type="radio" name="gender" value="no"/> NO</TD>  
+            </TR>
+        </table>
+        </fieldset><BR>
+            <BR>
+            <FIELDSET>
+                <legend ALIGN=CENTER>COURSE </legend>
+              <TR>
+                <TD><label for="gender">TYPE OF COURSE : </label></TD>
+                <TD><input type="radio" name="gender" value="BACHELORS"/> BACHELORS</TD>
+                <TD><input type="radio" name="gender" value="MASTERS"/>MASTERS</TD>
+                <TD><input type="radio" name="gender" value="BOTH"/>BOTH</TD>
+            </TR><BR>
+               <label for="product specification">ADDITIONAL INFORMATION: </label><BR>
+            <input type="checkbox"  name="product specification" value="R" />I HAVE MY SIBLING IN THE COLLEGE<BR>
+            <input type="checkbox"  name="product specification" value="W"/>I HAVE PARENTS WHO ARE THE PART OF THE ORGINIZATION<BR>
+            <input type="checkbox"  name="product specification" value="L"/>I HAVE APPLIED FOR THE COLLEGE FOR FIRST TIME<BR>
+            <input type="checkbox"  name="product specification" value="P"/>I AM THE ONLY CHILD<BR>
+            <input type="checkbox"  name="product specification" value="S"/>I HAVE NO BACKLOGS IN MY PREVIOUS CLASS
+            <br> 
+            <br>
+            <label for="METHOD">Which course are you interested in ?: </label>
+            <select name="class" size="0" mutiple>
+             <option value="z" >Select </option> 
+             <option value="a" >B.TECH </option>
+             <option value="b" >BA </option>
+             <option value="c" >B.Sc</option>
+             <option value="d" >B.farma </option>
+             <option value="e" >M.TECH</option>
+             <option value="f" >LAW</option>
+             <option value="g" >PHD </option>
+             <option value="h" >B.com</option>
+            </select>
+        </FIELDSET>
+            <BR>
+           <br> 
+        
+            <fieldset> 
+               <legend ALIGN=CENTER>FEEDBACK</legend>
+              <br> 
+            <label for"RATING">FEEDBACK : </label>
+            <input type="text" WIDTH="30" HEIGHT="80" name="RATING"/> <br>
+
+            <label for="RATE"> RATE US : </label>
+            <input type="RANGE"  name="RATE"  value="RATE" MIN="1" MAX="10" /> <br><BR>
+            </fieldset>
+            <input type="Reset"name="Reset" value="Reset"/>
+            <input type="Submit" name="Submit" value="SUBMIT"/> 
+           <input type="button" value="Register">
+      
+        </form>
+    </body>
+</html>
